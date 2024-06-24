@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Hello",
+  "version": "0.0.1",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup/index.html"
+  }
+}

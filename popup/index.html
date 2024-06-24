@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="open-button">
+        <p>今天要打招呼</p>
+        <label class="switch">
+          <input type="checkbox" aria-label="checkbox" />
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="twitch-channel">
+        <label for="twitch-channel">要打招呼的頻道(channel id)</label>
+        <textarea
+          name="twitch-channel"
+          id="twitch-channel"
+          placeholder="換行分隔頻道"
+          aria-label="text area"
+          rows="5"
+        ></textarea>
+      </div>
+      <div class="footer">
+        <p>Made by</p>
+        <a href="https://www.twitch.tv/shushu010829" target="_blank">SHUSHU</a>
+      </div>
+    </div>
+    <script src="./popup.js" type="module"></script>
+  </body>
+</html>
